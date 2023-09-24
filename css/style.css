@@ -835,14 +835,14 @@ ol {
 .credential-area {
     padding-top: 80px;
 }
-.credential-area .gx-row {
+/* .credential-area .gx-row {
     gap: 80px;
-}
+} */
 .credential-area .credential-sidebar {
     width: 370px;
     flex: none;
     position: sticky;
-    top: 15%;
+    top: 7%;
 }
 .credential-area .credential-sidebar .shadow-box {
     padding: 24px 24px 34px 24px;
@@ -2002,4 +2002,9 @@ ol {
     font-size: 16px;
     color: #ffffff;
     opacity: 0.8;
+}
+
+
+.contact-area .input-group p {
+    width: 100%
 }
