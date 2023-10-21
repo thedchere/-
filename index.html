@@ -1,807 +1,970 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en" data-safemod="false" data-autohidescrollbar="true" data-safemodpageinanimation="fadeIn"
+    data-inanimation="fadeInUp" data-outanimation="fadeOutDownBig" data-cover-h1-tune=".85" data-cover-h2-tune="2.3"
+    data-cover-h3-tune=".6" data-cover-h3-span-tune=".8" data-twitter-name="pixelwarsdesign">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="BookCard - Responsive HTML5 vCard Template">
+    <meta name="keywords" content="vcard, html5, portfolio">
+    <meta name="author" content="Pixelwars">
 
-    <title>ॐ Thedc - Personal Web</title>
-    <link rel="icon" type="image/x-icon" href="./images/short_icon.png">
-    <link rel="apple-touch-icon" href="./images/short_icon.png">
-    <meta name="author" content=" ॐ thedc">
-    <meta id="meta-application-name" name="application-name" content="ॐ Thedc - Personal Web" />
-    <meta id="meta-description" name="description"
-        content="ॐ त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम् । उर्वारुकमिव बन्धनान् मृत्योर्मुक्षीय मामृतात्" />
-    <meta id="meta-keywords" name="keywords" content="Personal Web" />
+    <title>thedchere</title>
 
-    <!-- Schema.org markup for Google+ -->
-    <meta id="meta-item-name" itemprop="name" content="ॐ Thedc - Personal Web" />
-    <meta id="meta-item-description" itemprop="description"
-        content="ॐ त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम् । उर्वारुकमिव बन्धनान् मृत्योर्मुक्षीय मामृतात्" />
-    <meta id="meta-item-image" itemprop="image" content="./images/thumbnail.png" />
-    <link rel="canonical" href="https://thedchere.github.io/-" />
+    <!-- FAV and TOUCH ICONS -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
-    <!-- Twitter Card data -->
-    <meta id="twt-card" name="twitter:card" content="summary" />
-    <meta id="twt-site" name="twitter:site" content="@thedc" />
-    <meta id="twt-title" name="twitter:title" content="ॐ Thedc - Personal Web" />
-    <meta id="twt-description" name="twitter:description"
-        content="ॐ त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम् । उर्वारुकमिव बन्धनान् मृत्योर्मुक्षीय मामृतात्" />
-    <meta id="twt-creator" name="twitter:creator" content="@thedc" />
-    <meta id="twt-image" name="twitter:image" content="./images/thumbnail.png" />
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="js/modernizr.js"></script>
+    <!--[if lte IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/selectivizr-min.js"></script>
+    <![endif]-->
 
-    <!-- Open Graph data -->
-    <meta id="og-title" property="og:title" content="ॐ Thedc - Personal Web" />
-    <meta id="og-type" property="og:type" content="website" />
-    <meta id="og-url" property="og:url" content="https://thedchere.github.io/-" />
-    <meta id="og-image" property="og:image" content="./images/thumbnail.png" />
-    <meta id="og-description" property="og:description"
-        content="ॐ त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम् । उर्वारुकमिव बन्धनान् मृत्योर्मुक्षीय मामृतात्" />
+    <!-- FONTS -->
+    <link
+        href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic"
+        rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Alfa+Slab+One|Nixie+One|Raleway:200,800" rel="stylesheet"
+        type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Tulpen+One|Sacramento" rel="stylesheet" type="text/css">
 
+    <!-- STYLES -->
+    <link rel="stylesheet" type="text/css" media="print" href="css/print.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/book.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox-1.3.4.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 
-
-
-    <!-- More links -->
-    <link rel="stylesheet" id="classic-theme-styles-css" href="css/classic-themes.min.css" media="all">
-
-    <link rel="stylesheet" id="contact-form-7-css" href="css/styles.css" media="all">
-    <link rel="stylesheet" id="redux-extendify-styles-css" href="css/extendify-utilities.css" media="all">
-    <link rel="stylesheet" id="icon-css" href="css/iconoir.css" media="all">
-    <link rel="stylesheet" id="bootstrap-css" href="css/bootstrap.min.css" media="all">
-    <link rel="stylesheet" id="aos-css" href="css/aos.css" media="all">
-    <link rel="stylesheet" id="gridx-style-css" href="css/style.css" media="all">
-    <link rel="stylesheet" id="gridx-unit-test-css" href="css/gridx-unit-test.css" media="all">
-
-    <link rel="stylesheet" id="elementor-icons-css" href="css/elementor-icons.min.css" media="all">
-    <link rel="stylesheet" id="elementor-frontend-css" href="css/frontend-lite.min.css" media="all">
-    <link rel="stylesheet" id="swiper-css" href="css/swiper.min.css" media="all">
-    <link rel="stylesheet" id="elementor-post-16-css" href="css/post-16.css" media="all">
-    <link rel="stylesheet" id="elementor-global-css" href="css/global.css" media="all">
-    <link rel="stylesheet" id="elementor-post-13-css" href="css/post-13.css" media="all">
-    <script src="js/jquery.min.js" id="jquery-core-js"></script>
-    <script src="js/jquery-migrate.min.js" id="jquery-migrate-js"></script>
-
-
-
+    <link class="cover-skin" rel="stylesheet" type="text/css" href="css/standart.css">
+    <link class="base-skin" rel="stylesheet" type="text/css" href="css/clean.css">
+    <link class="paper-bg-skin" rel="stylesheet" type="text/css" href="css/cream-dust.css">
+    <link class="body-bg-skin" rel="stylesheet" type="text/css" href="css/wood.css">
 
 </head>
 
-<body
-    class="home page-template page-template-page-templates page-template-main-home page-template-page-templatesmain-home-php page page-id-13 elementor-default elementor-kit-16 elementor-page elementor-page-13">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-dark-grayscale">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </feColorMatrix>
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0 0.49803921568627"></feFuncR>
-                    <feFuncG type="table" tableValues="0 0.49803921568627"></feFuncG>
-                    <feFuncB type="table" tableValues="0 0.49803921568627"></feFuncB>
-                    <feFuncA type="table" tableValues="1 1"></feFuncA>
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in"></feComposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-grayscale">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </feColorMatrix>
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0 1"></feFuncR>
-                    <feFuncG type="table" tableValues="0 1"></feFuncG>
-                    <feFuncB type="table" tableValues="0 1"></feFuncB>
-                    <feFuncA type="table" tableValues="1 1"></feFuncA>
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in"></feComposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-purple-yellow">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </feColorMatrix>
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0.54901960784314 0.98823529411765"></feFuncR>
-                    <feFuncG type="table" tableValues="0 1"></feFuncG>
-                    <feFuncB type="table" tableValues="0.71764705882353 0.25490196078431"></feFuncB>
-                    <feFuncA type="table" tableValues="1 1"></feFuncA>
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in"></feComposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-blue-red">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </feColorMatrix>
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0 1"></feFuncR>
-                    <feFuncG type="table" tableValues="0 0.27843137254902"></feFuncG>
-                    <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902"></feFuncB>
-                    <feFuncA type="table" tableValues="1 1"></feFuncA>
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in"></feComposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-midnight">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </feColorMatrix>
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0 0"></feFuncR>
-                    <feFuncG type="table" tableValues="0 0.64705882352941"></feFuncG>
-                    <feFuncB type="table" tableValues="0 1"></feFuncB>
-                    <feFuncA type="table" tableValues="1 1"></feFuncA>
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in"></feComposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-magenta-yellow">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </feColorMatrix>
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0.78039215686275 1"></feFuncR>
-                    <feFuncG type="table" tableValues="0 0.94901960784314"></feFuncG>
-                    <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412"></feFuncB>
-                    <feFuncA type="table" tableValues="1 1"></feFuncA>
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in"></feComposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-purple-green">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </feColorMatrix>
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0.65098039215686 0.40392156862745"></feFuncR>
-                    <feFuncG type="table" tableValues="0 1"></feFuncG>
-                    <feFuncB type="table" tableValues="0.44705882352941 0.4"></feFuncB>
-                    <feFuncA type="table" tableValues="1 1"></feFuncA>
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in"></feComposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-blue-orange">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </feColorMatrix>
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0.098039215686275 1"></feFuncR>
-                    <feFuncG type="table" tableValues="0 0.66274509803922"></feFuncG>
-                    <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725"></feFuncB>
-                    <feFuncA type="table" tableValues="1 1"></feFuncA>
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in"></feComposite>
-            </filter>
-        </defs>
-    </svg>
+<body>
 
-    <main class="main-homepage">
 
-        <!-- Header -->
-        <header class="header-area">
-            <div class="container">
-                <div class="gx-row d-flex align-items-center justify-content-between">
-                    <a href="index.html" class="logo">
-                        <img src="images/logo-no-background.png" alt="Logosd" width="100px">
-                        <!-- <h3>Thedc</h3> -->
-                    </a>
 
+    <!-- ************************ MAIN -->
+    <section class="main">
 
 
-                    <nav class="navbar">
-                        <ul data-in="#" data-out="#" class="menu" id="menu-main-menu">
-                            <li id="menu-item-1850"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-13 current_page_item menu-item-1850 active">
-                                <a title="Home" href="index.html">Home</a>
-                            </li>
-                            <li id="menu-item-1851"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1851"><a
-                                    title="About" href="about-page.html">About</a></li>
-                            <li id="menu-item-1853"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1853"><a
-                                    title="Works" href="work.html">Works</a></li>
-                            <li id="menu-item-1852"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1852"><a
-                                    title="Contact" href="contact-info.html">Contact</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <a href="photos.html" class="theme-btn">Photos</a>
+        <!-- .rm-container -->
+        <div id="rm-container" class="rm-container rm-closed">
 
 
+            <!-- HEADER -->
+            <header id="header">
 
-                    <!-- End Navigation -->
-
-                    <div class="show-menu">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
-            </div>
-        </header>
-
-
-        <!-- About -->
-        <section class="about-area">
-            <div class="container">
-
-                <div data-elementor-type="wp-page" data-elementor-id="13" class="elementor elementor-13">
-                    <section
-                        class="elementor-section elementor-top-section elementor-element elementor-element-5ed44d6 row elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                        data-id="5ed44d6" data-element_type="section">
-                        <div class="elementor-container elementor-column-gap-no">
-                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-54cd859 col-md-6"
-                                data-id="54cd859" data-element_type="column">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-c4f5752 elementor-widget elementor-widget-gridxdaaboutme"
-                                        data-id="c4f5752" data-element_type="widget"
-                                        data-widget_type="gridxdaaboutme.default">
-                                        <div class="elementor-widget-container">
-
-                                            <!-- Star AboutMe
-    ============================================= -->
-
-
-                                            <div data-aos="zoom-in" class="about-me-box-wrap">
-                                                <div class="about-me-box shadow-box">
-                                                    <a class="overlay-link" href="about-page.html"></a>
-
-                                                    <img decoding="async" src="images/bg1.png" alt="BG" class="bg-img">
-
-
-                                                    <div class="img-box">
-                                                        <img decoding="async" src="images/me.JPG" alt="About Me">
-                                                    </div>
-                                                    <div class="infos">
-                                                        <h4>A WEB DESIGNER</h4>
-                                                        <h1>Sunil Sharma.</h1>
-                                                        <p>I am a Web Designer based in Bharat.</p>
-                                                        <a href="#" class="about-btn">
-
-                                                            <img decoding="async" src="images/icon.svg" alt="Button">
-
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <script>
-                                                AOS.init({
-                                                    duration: 1500,
-                                                    once: true,
-
-                                                });</script>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-8c406e0 col-md-6"
-                                data-id="8c406e0" data-element_type="column">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-79a19dc elementor-widget elementor-widget-gridxdafeaturedbox"
-                                        data-id="79a19dc" data-element_type="widget"
-                                        data-widget_type="gridxdafeaturedbox.default">
-                                        <div class="elementor-widget-container">
-
-                                            <!-- Start Featured Box
-    ============================================= -->
-
-
-                                            <div class="about-credentials-wrap">
-                                                <div data-aos="zoom-in">
-                                                    <div class="banner shadow-box">
-                                                        <div class="marquee">
-                                                            <div>
-                                                                <span>LATEST WORK AND <b>FEATURED</b><img
-                                                                        decoding="async" src="images/star1.svg"
-                                                                        alt="Star">
-                                                                </span>
-                                                                <span> THedc <b>soon</b>
-                                                                    <img decoding="async" src="images/star1.svg"
-                                                                        alt="Star" />
-                                                                </span>
-
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <script>
-                                                AOS.init({
-                                                    duration: 1500,
-                                                    once: true,
-
-                                                });</script>
-                                        </div>
-                                    </div>
-                                    <section
-                                        class="elementor-section elementor-inner-section elementor-element elementor-element-1130d0e elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                        data-id="1130d0e" data-element_type="section">
-                                        <div class="elementor-container elementor-column-gap-no">
-                                            <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-cd3cb20"
-                                                data-id="cd3cb20" data-element_type="column">
-                                                <div class="elementor-widget-wrap elementor-element-populated">
-                                                    <div class="elementor-element elementor-element-bdc73c3 elementor-widget elementor-widget-gridxdacredentialbox"
-                                                        data-id="bdc73c3" data-element_type="widget"
-                                                        data-widget_type="gridxdacredentialbox.default">
-                                                        <div class="elementor-widget-container">
-
-                                                            <!-- Start Credentials Box
-    ============================================= -->
-                                                            <div data-aos="zoom-in" class="about-crenditials-box">
-                                                                <div class="info-box shadow-box h-full">
-                                                                    <a class="overlay-link" href="credential.html"></a>
-
-
-                                                                    <img decoding="async" src="images/bg1.png" alt="BG"
-                                                                        class="bg-img">
-
-
-                                                                    <img decoding="async" src="images/sign.png"
-                                                                        alt="Sign">
-                                                                    <div
-                                                                        class="d-flex align-items-center justify-content-between">
-                                                                        <div class="infos">
-                                                                            <h4>MORE ABOUT ME</h4>
-                                                                            <h1>Credentials</h1>
-                                                                        </div>
-
-                                                                        <a href="credential.html" class="about-btn">
-
-
-                                                                            <img decoding="async" src="images/icon.svg"
-                                                                                alt="Button">
-
-
-                                                                        </a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-
-
-                                                            <script>
-                                                                AOS.init({
-                                                                    duration: 1500,
-                                                                    once: true,
-
-                                                                });</script>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-d1ad012"
-                                                data-id="d1ad012" data-element_type="column">
-                                                <div class="elementor-widget-wrap elementor-element-populated">
-                                                    <div class="elementor-element elementor-element-505fe86 elementor-widget elementor-widget-gridxdaprojectbox"
-                                                        data-id="505fe86" data-element_type="widget"
-                                                        data-widget_type="gridxdaprojectbox.default">
-                                                        <div class="elementor-widget-container">
-
-                                                            <!-- Start Project Box
-    ============================================= -->
-
-
-                                                            <div data-aos="zoom-in" class="about-project-box">
-                                                                <div class="info-box shadow-box h-full">
-                                                                    <a class="overlay-link" href="work.html"></a>
-
-                                                                    <img decoding="async" src="images/bg1.png" alt="BG"
-                                                                        class="bg-img">
-
-
-                                                                    <img decoding="async" src="images/my-works.png"
-                                                                        alt="My Works">
-                                                                    <div
-                                                                        class="d-flex align-items-center justify-content-between">
-                                                                        <div class="infos">
-                                                                            <h4>SHOWCASE</h4>
-                                                                            <h1>Projects</h1>
-                                                                        </div>
-
-                                                                        <a href="work.html" class="about-btn">
-
-                                                                            <img decoding="async" src="images/icon.svg"
-                                                                                alt="Button">
-
-                                                                        </a>
-
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-
-                                                            <script>
-                                                                AOS.init({
-                                                                    duration: 1500,
-                                                                    once: true,
-
-                                                                });</script>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                    <section
-                        class="elementor-section elementor-top-section elementor-element elementor-element-033fafe row mt-24  elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                        data-id="033fafe" data-element_type="section">
-                        <div class="elementor-container elementor-column-gap-no">
-                            <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-dc60a93"
-                                data-id="dc60a93" data-element_type="column">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-6ab9773 elementor-widget elementor-widget-gridxdablogbox"
-                                        data-id="6ab9773" data-element_type="widget"
-                                        data-widget_type="gridxdablogbox.default">
-                                        <div class="elementor-widget-container">
-
-                                            <!-- Start Blog Box
-    ============================================= -->
-
-                                            <div class="col-md-12">
-                                                <div class="blog-service-profile-wrap d-flex gap-24">
-                                                    <div data-aos="zoom-in" class="about-blog-box">
-                                                        <div class="info-box shadow-box h-full">
-                                                            <a href="https://fonts.google.com/"
-                                                                class="overlay-link"></a>
-
-                                                            <img decoding="async" src="images/bg1.png" alt="BG"
-                                                                class="bg-img">
-
-                                                            <img decoding="async" src="images/gfonts.png" alt="GFonts">
-                                                            <div
-                                                                class="d-flex align-items-center justify-content-between">
-                                                                <div class="infos">
-                                                                    <h4>BLOG</h4>
-                                                                    <h1>Google Fonts</h1>
-                                                                </div>
-
-                                                                <a href="https://fonts.google.com/" class="about-btn">
-
-                                                                    <img decoding="async" src="images/icon.svg"
-                                                                        alt="Button">
-
-                                                                </a>
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <script>
-                                                AOS.init({
-                                                    duration: 1500,
-                                                    once: true,
-
-                                                });</script>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-524805c"
-                                data-id="524805c" data-element_type="column">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-39b9567 elementor-widget elementor-widget-gridxdaservicesbox"
-                                        data-id="39b9567" data-element_type="widget"
-                                        data-widget_type="gridxdaservicesbox.default">
-                                        <div class="elementor-widget-container">
-
-                                            <!-- Start Services Box
-    ============================================= -->
-                                            <div class="col-md-12">
-                                                <div class="blog-service-profile-wrap d-flex gap-24">
-
-                                                    <div data-aos="zoom-in" class="flex-1 about-services-box-wrap">
-                                                        <div class="about-services-box info-box shadow-box h-full">
-                                                            <a href="photos.html" class="overlay-link"></a>
-
-                                                            <img decoding="async" src="images/bg1.png" alt="BG"
-                                                                class="bg-img">
-
-                                                            <div class="icon-boxes">
-
-                                                                <i class="iconoir-camera"></i>
-
-                                                                <i class="iconoir-design-pencil"></i>
-
-                                                                <i class="iconoir-color-filter"></i>
-
-                                                                <i class="iconoir-dev-mode-phone"></i>
-
-                                                            </div>
-                                                            <div
-                                                                class="d-flex align-items-center justify-content-between">
-                                                                <div class="infos">
-                                                                    <h4>SPECIALIZATION</h4>
-                                                                    <h1>Services Offering</h1>
-                                                                </div>
-
-                                                                <a href="photos.html" class="about-btn">
-
-                                                                    <img decoding="async" src="images/icon.svg"
-                                                                        alt="Button">
-
-                                                                </a>
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <script>
-                                                AOS.init({
-                                                    duration: 1500,
-                                                    once: true,
-
-                                                });</script>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-386b9dc"
-                                data-id="386b9dc" data-element_type="column">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-d02c9cb elementor-widget elementor-widget-gridxdaprofilesbox"
-                                        data-id="d02c9cb" data-element_type="widget"
-                                        data-widget_type="gridxdaprofilesbox.default">
-                                        <div class="elementor-widget-container">
-
-                                            <!-- Start Profiles Box
-    ============================================= -->
-
-                                            <div class="col-md-12">
-                                                <div class="blog-service-profile-wrap">
-
-                                                    <div data-aos="zoom-in" class="about-profile-box-wrap">
-                                                        <div class="about-profile-box info-box shadow-box h-full">
-
-                                                            <img decoding="async" src="images/bg1.png" alt="BG"
-                                                                class="bg-img">
-
-
-                                                            <div class="inner-profile-icons shadow-box">
-
-                                                                <a href="https://www.instagram.com/sentu_pandit_"
-                                                                    target="_black">
-                                                                    <i class="iconoir-instagram"></i>
-                                                                </a>
-
-                                                                <a href="https://t.snapchat.com/C6FTrwh7"
-                                                                    target="_blank">
-                                                                    <i class="iconoir-snapchat"></i>
-                                                                </a>
-
-                                                            </div>
-                                                            <div
-                                                                class="d-flex align-items-center justify-content-between">
-                                                                <div class="infos">
-                                                                    <h4>STAY WITH ME</h4>
-                                                                    <h1>Profiles</h1>
-                                                                </div>
-
-                                                                <a href="#" class="about-btn">
-
-                                                                    <img decoding="async" src="images/icon.svg"
-                                                                        alt="Button">
-
-                                                                </a>
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-
-                                            <script>
-                                                AOS.init({
-                                                    duration: 1500,
-                                                    once: true,
-
-                                                });</script>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section
-                        class="elementor-section elementor-top-section elementor-element elementor-element-1588901 row mt-24  elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                        data-id="1588901" data-element_type="section">
-                        <div class="elementor-container elementor-column-gap-no">
-                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1616496 col-md-6"
-                                data-id="1616496" data-element_type="column">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-b27321e elementor-widget elementor-widget-gridxdaclientbox"
-                                        data-id="b27321e" data-element_type="widget"
-                                        data-widget_type="gridxdaclientbox.default">
-                                        <div class="elementor-widget-container">
-
-                                            <!-- Start Client Box
-    ============================================= -->
-
-
-                                            <div data-aos="zoom-in" class="about-client-box-wrap">
-                                                <div class="about-client-box info-box shadow-box">
-
-                                                    <img decoding="async" src="images/bg1.png" alt="BG" class="bg-img">
-
-
-                                                    <div
-                                                        class="clients d-flex align-items-start gap-24 justify-content-center">
-                                                        <div class="client-item">
-                                                            <h1>01</h1>
-                                                            <p>Years <br>Experience</p>
-                                                        </div>
-                                                        <div class="client-item">
-                                                            <h1>+10</h1>
-                                                            <p>CLIENTS <br>WORLDWIDE</p>
-                                                        </div>
-                                                        <div class="client-item">
-                                                            <h1>+30</h1>
-                                                            <p>Total <br>Projects</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-
-                                            <script>
-                                                AOS.init({
-                                                    duration: 1500,
-                                                    once: true,
-
-                                                });</script>
-
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-e314706 col-md-6"
-                                data-id="e314706" data-element_type="column">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-b0e85ec elementor-widget elementor-widget-gridxdacontactbox"
-                                        data-id="b0e85ec" data-element_type="widget"
-                                        data-widget_type="gridxdacontactbox.default">
-                                        <div class="elementor-widget-container">
-
-                                            <!-- Start Contact Box
-    ============================================= -->
-
-
-                                            <div data-aos="zoom-in" class="about-contact-box-wrap">
-
-                                                <div class="about-contact-box info-box shadow-box">
-                                                    <a class="overlay-link" href="contact-info.html"></a>
-
-                                                    <img decoding="async" src="images/bg1.png" alt="BG" class="bg-img">
-
-
-                                                    <img decoding="async" src="images/icon2.png" alt="Icon"
-                                                        class="star-icon">
-
-
-
-                                                    <h1>Let's <br>work <span>together.</span></h1>
-                                                    <a href="contact-info.html" class="about-btn">
-
-                                                        <img decoding="async" src="images/icon.svg" alt="Button">
-
-                                                    </a>
-                                                </div>
-
-                                            </div>
-
-                                            <script>
-                                                AOS.init({
-                                                    duration: 1500,
-                                                    once: true,
-
-                                                });</script>
-
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-
-
-            </div>
-        </section>
-
-        <!-- Footer -->
-        <footer class="footer-area">
-            <div class="container">
-                <div class="footer-content text-center">
-                    <a href="index.html" class="logo">
-
-                        <img src="images/logo-no-background.png" alt="Logo" width="200px">
-
-                    </a>
-
-                    <ul data-in="#" data-out="#" class="footer-menu" id="menu-footer-menu">
-                        <li id="menu-item-1856"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-13 current_page_item menu-item-1856 active">
-                            <a title="Home" href="index.html">Home</a>
-                        </li>
-                        <li id="menu-item-1857"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1857"><a
-                                title="About" href="about-page.html">About</a></li>
-                        <li id="menu-item-1859"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1859"><a
-                                title="Works" href="work.html">Works</a></li>
-                        <li id="menu-item-1858"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1858"><a
-                                title="Contact" href="contact-info.html">Contact</a></li>
+                <!-- NAV MENU -->
+                <nav>
+                    <ul>
+                        <li><a href="#/home"></a></li>
+                        <li><a href="#/resume"></a></li>
+                        <li><a href="#/portfolio"></a></li>
+                        <li><a href="#/contact"></a></li>
                     </ul>
-                    <p class="copyright">
-                        © All rights reserved by <span>Sksharma</span>
-                    </p>
-                </div>
-            </div>
-        </footer>
+                </nav>
+                <!-- NAV MENU -->
 
-    </main>
+            </header>
+            <!-- HEADER -->
 
-    <script src="js/index.js" id="swv-js"></script>
 
-    <script src="js/index_1.js" id="contact-form-7-js"></script>
-    <script src="js/bootstrap.bundle.min.js" id="bootstrap-js"></script>
-    <script src="js/aos.js" id="aos-js"></script>
-    <script src="js/main.js" id="gridx-main-js"></script>
-    <script src="https://wpriverthemes.com/gridx/wp-content/themes/gridx/assets/js/ajax-form.js?ver=6.2.2"
-        id="ajax-form-js"></script>
-    <script src="js/webpack.runtime.min.js" id="elementor-webpack-runtime-js"></script>
-    <script src="js/frontend-modules.min.js" id="elementor-frontend-modules-js"></script>
-    <script src="js/waypoints.min.js" id="elementor-waypoints-js"></script>
-    <script src="js/core.min.js" id="jquery-ui-core-js"></script>
-    <script id="elementor-frontend-js-before">
-        var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "Share on Facebook", "shareOnTwitter": "Share on Twitter", "pinIt": "Pin it", "download": "Download", "downloadImage": "Download image", "fullscreen": "Fullscreen", "zoom": "Zoom", "share": "Share", "playVideo": "Play Video", "previous": "Previous", "next": "Next", "close": "Close", "a11yCarouselWrapperAriaLabel": "Carousel | Horizontal scrolling: Arrow Left & Right", "a11yCarouselPrevSlideMessage": "Previous slide", "a11yCarouselNextSlideMessage": "Next slide", "a11yCarouselFirstSlideMessage": "This is the first slide", "a11yCarouselLastSlideMessage": "This is the last slide", "a11yCarouselPaginationBulletMessage": "Go to slide" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "Mobile Portrait", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "Mobile Landscape", "value": 880, "default_value": 880, "direction": "max", "is_enabled": false }, "tablet": { "label": "Tablet Portrait", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tablet Landscape", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": false }, "laptop": { "label": "Laptop", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": false }, "widescreen": { "label": "Widescreen", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } } }, "version": "3.14.1", "is_static": false, "experimentalFeatures": { "e_dom_optimization": true, "e_optimized_assets_loading": true, "e_optimized_css_loading": true, "a11y_improvements": true, "additional_custom_breakpoints": true, "e_swiper_latest": true, "landing-pages": true }, "urls": { "assets": "https:\/\/wpriverthemes.com\/gridx\/wp-content\/plugins\/elementor\/assets\/" }, "swiperClass": "swiper", "settings": { "page": [], "editorPreferences": [] }, "kit": { "active_breakpoints": ["viewport_mobile", "viewport_tablet"], "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description" }, "post": { "id": 13, "title": "Gridx%20%E2%80%93%20WordPress%20Theme%20%E2%80%93%20Personal%20Portfolio%20Website", "excerpt": "", "featuredImage": false } };
-    </script>
-    <script src="js/frontend.min.js" id="elementor-frontend-js"></script>
+
+
+            <!-- .rm-wrapper -->
+            <div class="rm-wrapper">
+
+
+
+                <!-- .rm-cover -->
+                <div class="rm-cover">
+
+
+                    <!-- COVER PAGE -->
+                    <div id="home" class="rm-front page">
+
+                        <!-- .antiscroll-wrap -->
+                        <div class="antiscroll-wrap">
+                            <!-- .antiscroll-inner -->
+                            <div class="antiscroll-inner">
+
+
+
+                                <!-- COVER IMAGE -->
+                                <div class="cover">
+
+                                    <!-- cover-image-holder -->
+                                    <div class="cover-image-holder">
+                                        <img src="images/cover.jpg" alt="cover-image">
+                                    </div>
+                                    <!-- cover-image-holder -->
+
+                                    <!-- title -->
+                                    <h1>Sunil Sharma</h1>
+                                    <!-- title -->
+
+                                    <!-- slogan -->
+                                    <h2>UI/UX Designer <!-- &amp; --> </h2>
+                                    <!-- slogan -->
+
+                                    <!-- extra titles -->
+                                    <h3><span>I AM FROM</span> Haryana</h3>
+                                    <h3><span>I CREATE</span> Websites and figma apps</h3>
+                                    <h3><span>I LIKE</span> Simple design</h3>
+                                    <!-- extra titles --
+                                        
+                                        <-- open link -->
+                                    <a href="#/resume" class="rm-button-open ribbon">
+                                        <span class="ribbon-stitches-top"></span>
+                                        <strong class="ribbon-content">OPEN</strong>
+                                        <span class="ribbon-stitches-bottom"></span>
+                                    </a>
+                                    <!-- open link -->
+
+
+                                    <!-- latest-from-blog -->
+                                    <div class="latest-from-blog">
+
+                                        <h3 class="d-none">जय श्री राम <br /> ॐ त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम्
+                                            । उर्वारुकमिव बन्धनान् मृत्योर्मुक्षीय मामृतात्</h3>
+                                        <div class="blog-bar">
+                                            <h2><a href="#">Visit my website</a> </h2>
+                                        </div>
+                                    </div>
+                                    <!-- latest-from-blog -->
+
+                                    <!-- widget : twitter -->
+                                    <aside class="widget widget-twitter">
+                                        <a href="https://twitter.com/envato" class="twitter-link" target="_blank"></a>
+                                        <div id="twitter-list"></div>
+                                    </aside>
+                                    <!-- widget : twitter -->
+
+
+                                </div>
+                                <!-- COVER IMAGE -->
+
+
+
+
+                            </div>
+                            <!-- .antiscroll-inner -->
+                        </div>
+                        <!-- .antiscroll-wrap -->
+
+                    </div>
+                    <!-- COVER PAGE -->
+
+
+
+
+                    <!-- RESUME PAGE -->
+                    <div id="resume" class="rm-back page">
+
+                        <!-- .antiscroll-wrap -->
+                        <div class="antiscroll-wrap">
+                            <!-- .antiscroll-inner -->
+                            <div class="antiscroll-inner">
+
+                                <!-- CONTENT -->
+                                <div class="content">
+
+
+                                    <h2><span>RESUME</span></h2>
+
+                                    <h4 class="about-text">
+                                        Certainly, <span class="label">Sunil Sharma</span> is a skilled web designer
+                                        known for his expertise in creating visually appealing and user-friendly
+                                        websites. With a keen eye for design and a deep understanding of the latest web
+                                        development trends and technologies, Sunil consistently delivers top-notch
+                                        websites that meet the unique needs of his clients.
+
+
+                                    </h4>
+
+                                    <!-- <h3><span>EMPLOYMENT</span></h3> -->
+
+                                    <!-- EMPLOYMENT -->
+                                    <div class="history-group" style="display: none;">
+
+
+                                        <!-- .history-unit -->
+                                        <div class="history-unit">
+
+                                            <h4 class="work-time">since 2021</h4>
+
+                                            <div class="work-desc">
+                                                <h4>Lead UX Designer</h4>
+                                                <h5>W3 School.</h5>
+                                                <p>Worked in so many projects for best clients around the world and i
+                                                    get so many experiences based on my job.</p>
+                                            </div>
+
+                                        </div>
+
+                                        <!-- .history-unit -->
+
+                                        <!-- .history-unit -->
+                                        <div class="history-unit">
+
+                                            <h4 class="work-time">2018 - 2020</h4>
+
+                                            <div class="work-desc">
+
+                                                <h4>Bachelor Degree in Arts </h4>
+                                                <p>University of Haryana </p>
+
+                                            </div>
+
+                                        </div>
+                                        <!-- .history-unit -->
+
+                                        <!-- .history-unit -->
+                                        <div class="history-unit">
+
+                                            <h4 class="work-time">2002 - 2007</h4>
+
+                                            <div class="work-desc">
+
+                                                <h4>Web Developer</h4>
+                                                <h5>Creative Agency</h5>
+                                                <p>Worked in so many projects for best clients around the world.</p>
+
+                                            </div>
+
+                                        </div>
+                                        <!-- .history-unit -->
+
+
+                                    </div>
+                                    <!-- EMPLOYMENT -->
+
+
+
+                                    <h3><span>EDUCATION</span></h3>
+
+                                    <!-- EDUCATION -->
+                                    <div class="history-group">
+
+
+                                        <!-- .history-unit -->
+                                        <div class="history-unit">
+
+                                            <h4 class="work-time">2018 - 2021</h4>
+
+                                            <div class="work-desc">
+
+                                                <h4>Bachelor Degree in Arts </h4>
+                                                <p>CDLU in Haryana </p>
+
+                                            </div>
+
+                                        </div>
+                                        <!-- .history-unit -->
+
+                                        <!-- .history-unit -->
+                                        <div class="history-unit">
+
+                                            <h4 class="work-time">2021 - 2023</h4>
+
+                                            <div class="work-desc">
+
+                                                <h4>M.A. in Economics</h4>
+                                                <p>CDLU in Haryana </p>
+
+                                            </div>
+
+                                        </div>
+                                        <!-- .history-unit -->
+
+                                    </div>
+                                    <!-- EDUCATION -->
+
+
+
+                                    <!-- DOWNLOAD BUTTON -->
+                                    <div class="launch">
+                                        <a href="#" class="btn">DOWNLOAD CV SOON</a>
+                                    </div>
+                                    <!-- DOWNLOAD BUTTON -->
+
+
+
+                                    <h3><span>DEVELOPMENT SKILLS</span></h3>
+
+                                    <!-- DEV SKILLS -->
+                                    <div class="skill-group">
+
+                                        <!-- .skill-unit -->
+                                        <div class="skill-unit">
+                                            <h4>HTML5</h4>
+                                            <div class="bar" data-percent="100">
+                                                <div class="progress"></div>
+                                            </div>
+                                        </div>
+                                        <!-- .skill-unit -->
+
+                                        <!-- .skill-unit -->
+                                        <div class="skill-unit">
+                                            <h4>CSS3</h4>
+                                            <div class="bar" data-percent="90">
+                                                <div class="progress"></div>
+                                            </div>
+                                        </div>
+                                        <!-- .skill-unit -->
+
+                                        <!-- .skill-unit -->
+                                        <div class="skill-unit">
+                                            <h4>bootstrap & tailwind Css</h4>
+                                            <div class="bar" data-percent="70">
+                                                <div class="progress"></div>
+                                            </div>
+                                        </div>
+                                        <!-- .skill-unit -->
+
+                                        <!-- .skill-unit -->
+                                        <div class="skill-unit">
+                                            <h4>Reactjs (Only designing)</h4>
+                                            <div class="bar" data-percent="50">
+                                                <div class="progress"></div>
+                                            </div>
+                                        </div>
+                                        <!-- .skill-unit -->
+
+                                    </div>
+                                    <!-- DEV SKILLS -->
+
+
+                                    <h3><span>DESIGN SKILLS</span></h3>
+
+                                    <!-- DESIGN SKILLS -->
+                                    <div class="skill-group">
+
+                                        <!-- .skill-unit -->
+                                        <div class="skill-unit">
+                                            <h4>Figma</h4>
+                                            <div class="bar" data-percent="70">
+                                                <div class="progress"></div>
+                                            </div>
+                                        </div>
+                                        <!-- .skill-unit -->
+
+                                        <!-- .skill-unit -->
+                                        <div class="skill-unit">
+                                            <h4>Photoshop</h4>
+                                            <div class="bar" data-percent="60">
+                                                <div class="progress"></div>
+                                            </div>
+                                        </div>
+                                        <!-- .skill-unit -->
+
+                                        <!-- .skill-unit -->
+                                        <div class="skill-unit">
+                                            <h4>Illustrator(soon)</h4>
+                                            <div class="bar" data-percent="10">
+                                                <div class="progress"></div>
+                                            </div>
+                                        </div>
+                                        <!-- .skill-unit -->
+
+                                    </div>
+                                    <!-- DESIGN SKILLS -->
+
+
+
+
+                                    <h3><span>TESTIMONIALS</span></h3>
+
+
+                                    <!-- TESTIMONIALS -->
+                                    <div class="testo-group">
+
+                                        <!-- Testimonial -->
+                                        <div class="testo">
+                                            <div class="img_sec" style="background: url(images/testo-01.jpg);"></div>
+                                            <div class="text">
+                                                <h4>imdevsunil <span>MD / GNI.</span></h4>
+                                                <p>He is a great and hardworking guy. I am so proud of i have him as my
+                                                    asistant. He helped me so much.</p>
+                                            </div>
+                                        </div>
+                                        <!-- Testimonial -->
+
+                                        <!-- Testimonial -->
+                                        <div class="testo">
+                                            <div class="img_sec" style="background: url(images/testo-02.jpg);"></div>
+                                            <div class="text">
+                                                <h4>kuldeep_chandora  <span>Sr. Software developer / GNI</span></h4>
+                                                <p>He was a great co-worker and a friend. I would't be where i am
+                                                    without his support.</p>
+                                            </div>
+                                        </div>
+                                        <!-- Testimonial -->
+
+                                        <!-- Testimonial -->
+                                        <div class="testo">
+                                            <div class="img_sec" style="background: url(images/testo-03.jpg);"></div>
+                                            <div class="text">
+                                                <h4>Pooja <span>Friends </span></h4>
+                                                <p>He is ok.</p>
+                                            </div>
+                                        </div>
+                                        <!-- Testimonial -->
+
+                                    </div>
+                                    <!-- TESTIMONIALS -->
+
+
+
+                                    <h3><span>SERVICES</span></h3>
+
+                                    <!-- SERVICES -->
+                                    <div class="service-group">
+
+
+                                        <!-- service -->
+                                        <div class="service">
+                                            <i class="icon-laptop"></i>
+                                            <h4>Web Design</h4>
+                                            <p>I design super cool websites. It is a long established fact that a reader
+                                                will be distracted by the readable content. </p>
+                                        </div>
+                                        <!-- service -->
+
+                                        <!-- service -->
+                                        <div class="service">
+                                            <i class="icon-tablet"></i>
+                                            <h4>Mobile Development</h4>
+                                            <p>I can develop iOS and Android apps. It is a long established fact that a
+                                                reader will be distracted by the readable content. </p>
+                                        </div>
+                                        <!-- service -->
+
+                                        <!-- service -->
+                                        <div class="service">
+                                            <i class="icon-globe"></i>
+                                            <h4>Social Media ( video creator )</h4>
+                                            <p>I am a social media expert. It is a long established fact that a reader
+                                                will be distracted by the readable content. </p>
+                                        </div>
+                                        <!-- service -->
+
+
+                                    </div>
+                                    <!-- SERVICES -->
+
+
+                                </div>
+                                <!-- CONTENT -->
+
+                            </div>
+                            <!-- .antiscroll-inner -->
+                        </div>
+                        <!-- .antiscroll-wrap -->
+
+
+                        <div class="rm-overlay"></div>
+
+                    </div>
+                    <!-- RESUME PAGE -->
+
+
+                </div><!-- /rm-cover -->
+
+
+
+
+
+
+
+                <!-- PORTFOLIO PAGE -->
+                <div id="portfolio" class="rm-middle portfolio page">
+
+                    <!-- .rm-inner -->
+                    <div class="rm-inner">
+
+
+                        <!-- .antiscroll-wrap -->
+                        <div class="antiscroll-wrap">
+                            <!-- .antiscroll-inner -->
+                            <div class="antiscroll-inner">
+
+
+
+
+                                <!-- CONTENT -->
+                                <div class="content">
+
+
+                                    <h2><span>PORTFOLIO</span></h2>
+
+
+                                    <!--FILTERS-->
+                                    <ul id="filters">
+                                        <li class="current"><a href="#" data-filter="*">ALL</a></li>
+                                        <li><a href="#" data-filter=".design">DESIGN</a></li>
+                                        <li><a href="#" data-filter=".coding">CODING</a></li>
+                                        <li><a href="#" data-filter=".logo">LOGO</a></li>
+                                    </ul>
+                                    <!--FILTERS-->
+
+
+
+                                    <!-- PORTFOLIO -->
+                                    <div class="portfolio-items">
+
+
+
+                                        <!-- portfolio-item -->
+                                        <div class="design hentry">
+                                            <div class="media-box">
+                                                <img src="images/01.jpg" alt="portfolio-post">
+                                                <div class="mask">
+                                                    <a href="portfolio-item-01.html" class="ajax"></a>
+                                                </div>
+                                            </div>
+                                            <h4>Happy Bear</h4>
+                                            <p class="category">an illustration work</p>
+                                        </div>
+                                        <!-- portfolio-item -->
+
+
+                                        <!-- portfolio-item -->
+                                        <div class="coding hentry">
+                                            <div class="media-box">
+                                                <img src="images/03.jpg" alt="portfolio-post">
+                                                <div class="mask">
+                                                    <a href="portfolio-item-02.html" class="ajax"></a>
+                                                </div>
+                                            </div>
+                                            <h4>Old Guy Superman</h4>
+                                            <p class="category">illustration by Dave Mottram</p>
+                                        </div>
+                                        <!-- portfolio-item -->
+
+
+                                        <!-- portfolio-item - lightbox video -->
+                                        <div class="coding video hentry">
+                                            <div class="media-box">
+                                                <img src="images/07.jpg" alt="portfolio-post">
+                                                <div class="mask">
+
+                                                    <!-- lightbox - video -->
+                                                    <a href="http://player.vimeo.com/video/37254322?badge=0&amp;color=ffffff"
+                                                        title="Paper by FiftyThree"
+                                                        data-lightbox-gallery="fancybox-item-03"
+                                                        class="lightbox iframe"></a>
+                                                    <!-- lightbox - video -->
+
+                                                </div>
+                                            </div>
+                                            <h4>Paper by FiftyThree</h4>
+                                            <p class="category">Lightbox Video</p>
+                                        </div>
+                                        <!-- portfolio-item - lightbox video -->
+
+
+                                        <!-- portfolio-item - lightbox image -->
+                                        <div class="design image hentry">
+                                            <div class="media-box">
+                                                <img src="images/06.jpg" alt="portfolio-post">
+                                                <div class="mask">
+
+                                                    <!-- lightbox - image -->
+                                                    <a href="images/portfolio/lightbox-01.jpg" title="Animal with love"
+                                                        data-lightbox-gallery="fancybox-item-01" class="lightbox"></a>
+                                                    <!-- lightbox - image -->
+
+                                                </div>
+                                            </div>
+                                            <h4>Lightbox Image</h4>
+                                            <p class="category">a booking mobile app</p>
+                                        </div>
+                                        <!-- portfolio-item - lightbox image -->
+
+
+                                        <!-- portfolio-item - lightbox soundcloud -->
+                                        <div class="coding audio hentry">
+                                            <div class="media-box">
+                                                <img src="images/05.jpg" alt="portfolio-post">
+                                                <div class="mask">
+
+                                                    <!-- lightbox - soundcloud -->
+                                                    <a href="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F207988&amp;"
+                                                        title="Soundcloud embed"
+                                                        data-lightbox-gallery="fancybox-item-04"
+                                                        class="lightbox iframe"></a>
+                                                    <!-- lightbox - soundcloud -->
+
+                                                </div>
+                                            </div>
+                                            <h4>Volume 2</h4>
+                                            <p class="category">Lightbox Soundcloud</p>
+                                        </div>
+                                        <!-- portfolio-item - lightbox soundcloud -->
+
+
+                                        <!-- portfolio-item - lightbox gallery -->
+                                        <div class="logo image hentry">
+                                            <div class="media-box">
+                                                <img src="images/02.jpg" alt="portfolio-post">
+                                                <div class="mask">
+
+                                                    <!-- lightbox - gallery -->
+                                                    <a href="images/portfolio/lightbox-02.jpg"
+                                                        data-lightbox-gallery="fancybox-item-02" class="lightbox"
+                                                        title="Octopus is dangerous!"></a>
+                                                    <a href="images/portfolio/lightbox-04.jpg"
+                                                        data-lightbox-gallery="fancybox-item-02"
+                                                        class="hidden lightbox"></a>
+                                                    <a href="images/portfolio/lightbox-03.jpg"
+                                                        data-lightbox-gallery="fancybox-item-02" class="hidden lightbox"
+                                                        title="Dog have dreams"></a>
+                                                    <!-- lightbox - gallery -->
+
+                                                </div>
+                                            </div>
+                                            <h4>Lightbox Gallery</h4>
+                                            <p class="category">Web Design, UI Design</p>
+                                        </div>
+                                        <!-- portfolio-item - lightbox gallery -->
+
+
+                                        <!-- portfolio-item - custom url -->
+                                        <div class="logo url hentry">
+                                            <div class="media-box">
+                                                <img src="images/10.jpg" alt="portfolio-post">
+                                                <div class="mask">
+                                                    <a href="http://themeforest.net/user/pixelwars" target="_blank"></a>
+                                                </div>
+                                            </div>
+                                            <h4>Character Sketches</h4>
+                                            <p class="category">illustration / sketch</p>
+                                        </div>
+                                        <!-- portfolio-item - custom url -->
+
+
+                                        <!-- portfolio-item -->
+                                        <div class="coding hentry">
+                                            <div class="media-box">
+                                                <img src="images/16.jpg" alt="portfolio-post">
+                                                <div class="mask">
+                                                    <a href="portfolio-item-03.html" class="ajax"></a>
+                                                </div>
+                                            </div>
+                                            <h4>Cross Browser</h4>
+                                            <p class="category">an illustration work</p>
+                                        </div>
+                                        <!-- portfolio-item -->
+
+
+                                        <!-- portfolio-item -->
+                                        <div class="design hentry">
+                                            <div class="media-box">
+                                                <img src="images/14.jpg" alt="portfolio-post">
+                                                <div class="mask">
+                                                    <a href="portfolio-item-01.html" class="ajax"></a>
+                                                </div>
+                                            </div>
+                                            <h4>404 Page</h4>
+                                            <p class="category">an illustration work</p>
+                                        </div>
+                                        <!-- portfolio-item -->
+
+
+                                        <!-- portfolio-item -->
+                                        <div class="design hentry">
+                                            <div class="media-box">
+                                                <img src="images/15.jpg" alt="portfolio-post">
+                                                <div class="mask">
+                                                    <a href="portfolio-item-02.html" class="ajax"></a>
+                                                </div>
+                                            </div>
+                                            <h4>Rat</h4>
+                                            <p class="category">an illustration work</p>
+                                        </div>
+                                        <!-- portfolio-item -->
+
+
+                                        <!-- portfolio-item -->
+                                        <div class="logo hentry x2">
+                                            <div class="media-box">
+                                                <img src="images/11.jpg" alt="portfolio-post">
+                                                <div class="mask">
+                                                    <a href="portfolio-item-03.html" class="ajax"></a>
+                                                </div>
+                                            </div>
+                                            <h4>Working Dudes</h4>
+                                            <p class="category">an illustration work</p>
+                                        </div>
+                                        <!-- portfolio-item -->
+
+
+
+                                    </div>
+                                    <!-- PORTFOLIO -->
+
+
+
+
+
+
+                                </div>
+                                <!-- CONTENT -->
+
+
+
+                            </div>
+                            <!-- .antiscroll-inner -->
+                        </div>
+                        <!-- .antiscroll-wrap -->
+
+
+                        <div class="rm-overlay"></div>
+
+                    </div><!-- /rm-inner -->
+                </div><!-- /rm-middle -->
+                <!-- PORTFOLIO PAGE -->
+
+
+
+                <!-- RIGHT SIDE -->
+                <div class="rm-right">
+
+
+
+                    <!-- .rm-front -->
+                    <div class="rm-front">
+
+                        <!-- BACK COVER IMAGE -->
+                        <div class="cover">
+
+                            <!-- cover-image-holder -->
+                            <div class="cover-image-holder">
+                                <img src="images/cover-2.jpg" alt="cover-image" class="fillter__img" >
+                            </div>
+                            <!-- cover-image-holder -->
+
+                        </div>
+                        <!-- BACK COVER IMAGE -->
+
+                    </div>
+                    <!-- .rm-front -->
+
+
+
+
+                    <!-- CONTACT PAGE -->
+                    <div id="contact" class="rm-back page">
+
+
+
+
+
+                        <!-- .antiscroll-wrap -->
+                        <div class="antiscroll-wrap">
+                            <!-- .antiscroll-inner -->
+                            <div class="antiscroll-inner">
+
+
+                                <!-- CONTENT -->
+                                <div class="content">
+
+
+                                    <h2><span>CONTACT</span></h2>
+
+
+                                    <!--<h3>Where am I in this world?</h3>
+                                            <div class="map">
+                                            
+                                                    <iframe src="https://maps.google.com/maps?source=s_q&f=q&hl=en&geocode=&q=little+italy&aq=&sll=36.558188,-86.709595&sspn=3.878053,8.453979&ie=UTF8&hq=&hnear=Little+Italy,+New+York&t=p&ll=40.84706,-73.125&spn=6.647611,26.367188&z=5&output=embed"></iframe>
+                                                    
+                                            </div>-->
+
+
+                                    <p class="center">Please feel free to contact me about anything.</p>
+
+                                    <h3><span>LET'S SOCIALIZE</span></h3>
+
+                                    <!-- SOCIAL -->
+                                    <ul class="social">
+                                        <li><a class="skype" href="https://join.skype.com/invite/v2xruwdArJfJ" target="_blank"></a></li>
+
+                                        <li><a class="facebook" href="https://www.facebook.com/ig.ssharma12?mibextid=LQQJ4d" target="_blank" ></a></li>
+                                        <li><a class="linkedin" href="https://www.linkedin.com/in/sunil-sharma-a8b5b7243?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"></a></li>
+                                        <li><a class="github" href="https://github.com/thedchere" target="_blank"></a></li>
+                                        <li><a class="instagram" href="https://www.instagram.com/sentu_pandit_" target="_blank" ></a></li>
+                                        <!--<li><a class="instagram" href="#"></a></li>
+                                                <li><a class="lastfm" href="#"></a></li>
+                                                <li><a class="rss" href="#"></a></li>
+                                                <li><a class="vimeo" href="#"></a></li>
+                                                <li><a class="forrst" href="#"></a></li>
+                                                <li><a class="picassa" href="#"></a></li>
+                                                <li><a class="youtube" href="#"></a></li>
+                                                <li><a class="flickr" href="#"></a></li>
+                                                <li><a class="tumblr" href="#"></a></li>
+                                                <li><a class="blogger" href="#"></a></li>
+                                                <li><a class="delicious" href="#"></a></li>
+                                                <li><a class="digg" href="#"></a></li>
+                                                <li><a class="friendfeed" href="#"></a></li>
+                                                <li><a class="wordpress" href="#"></a></li>-->
+                                    </ul>
+                                    <!-- SOCIAL -->
+
+
+                                    <h3><span>DROP ME A LINE!</span></h3>
+
+                                    <!-- .contact-form -->
+                                    <div class="contact-form">
+
+
+                                        <!-- LETTER -->
+                                        <div class="letter cf">
+
+                                            <div class="stamp">
+                                                <img src="images/stamp-image.png" alt="stamp">
+                                            </div>
+
+                                            <div class="letter-info">
+                                                <h4>( Thedc )</h4>
+                                                <p><a href="#"><i>thedc.here@gmail.com</i></a></p>
+                                                <p> - Planet Earth</p>
+                                            </div>
+
+                                        </div>
+                                        <!-- LETTER -->
+
+
+                                        <form id="contact-form" action="send-mail.php" method="post">
+
+                                            <!-- enter your e-mail address here -->
+                                            <input type="hidden" id="to" name="to" value="jonhdoeeee@jonhdoe.com">
+
+                                            <p>
+                                                <label for="name">Name</label>
+                                                <input type="text" name="name" id="name" class="required">
+                                            </p>
+
+                                            <p>
+                                                <label for="email">Email</label>
+                                                <input type="text" name="email" id="email" class="required email">
+                                            </p>
+
+                                            <p>
+                                                <label for="subject">Subject</label>
+                                                <input type="text" name="subject" id="subject" class="required">
+                                            </p>
+
+                                            <p>
+                                                <label for="message">Message</label>
+                                                <textarea name="message" id="message" class="required"></textarea>
+                                            </p>
+
+                                            <p>
+                                                <img class="ajax-loader" src="images/loader_light.gif"
+                                                    alt="Sending ...">
+                                                <input type="submit" class="btn submit" value="SEND">
+                                            </p>
+
+                                        </form>
+
+                                    </div>
+                                    <!-- .contact-form -->
+
+                                </div>
+                                <!-- CONTENT -->
+
+
+
+
+                            </div>
+                            <!-- .antiscroll-inner -->
+                        </div>
+                        <!-- .antiscroll-wrap -->
+
+
+                        <!-- close link -->
+                        <a class="rm-close"><span></span></a>
+                        <!-- close link -->
+
+
+                    </div><!-- /rm-back -->
+                    <!-- CONTACT PAGE -->
+
+
+
+                </div><!-- /rm-right -->
+                <!-- RIGHT SIDE -->
+
+
+
+
+            </div><!-- /rm-wrapper -->
+
+        </div><!-- /rm-container -->
+
+    </section>
+    <!-- ************************ MAIN -->
+
+
+
+
+    <!-- ************************ PORTFOLIO OVERLAY -->
+    <div class="p-overlay">
+
+    </div>
+    <!-- ************************ PORTFOLIO OVERLAY -->
+
+    <!-- ************************ PORTFOLIO OVERLAY -->
+    <div class="p-overlay">
+
+    </div>
+    <!-- ************************ PORTFOLIO OVERLAY -->
+
+
+
+    <!-- ************************ AJAX LOADER -->
+    <div class="loader"></div>
+    <!-- ************************ AJAX LOADER -->
+
+
+    <!-- ************************ ALERT -->
+    <div class="alert"></div>
+    <!-- ************************ ALERT -->
+
+
+    <!-- SCRIPTS -->
+    <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+    <script src="js/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js"><\/script>')</script>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery.address-1.5.min.js"></script>
+    <script src="js/antiscroll.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/jquery.imagesloaded.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.fancybox-1.3.4.pack.js"></script>
+    <script src="js/send-mail.js"></script>
+    <script src="js/twitterFetcher_v10_min.js"></script>
+    <script src="js/main.js"></script>
+
+
+
+    <script src="js/jquery.cookie.js"></script>
+
 
 
 
