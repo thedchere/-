@@ -141,7 +141,7 @@ p {
 /* FONTS */
 
 /* BODY */
-body,
+/* body,
 input,
 textarea,
 select,
@@ -150,7 +150,7 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   font-family: Lato, Arial, serif;
-}
+} */
 
 /* FONT AWESOME ICONS */
 .fancy-ico:before,
@@ -718,6 +718,9 @@ img.ajax-loader {
 }
 .portfolio-items .hentry img {
   display: block;
+  height: 170px;
+  width: 100%;
+  object-fit: cover;
 }
 .portfolio-items .hentry h4 {
   color: #222;
@@ -740,9 +743,13 @@ img.ajax-loader {
   background-color: #fff;
   border-radius: 2px;
   -webkit-border-radius: 2px;
-  -webkit-box-shadow: 1px 1px 1px #d1d1d1;
-  box-shadow: 1px 1px 1px #d1d1d1;
+  /* -webkit-box-shadow: 1px 1px 1px #d1d1d1; */
+  /* box-shadow: 1px 1px 1px #d1d1d1; */
+  /* height: 230px; */
+  overflow: hidden;
+  background-color: #e5e5e5;
 }
+
 .portfolio-items .media-box:after,
 .portfolio-items .media-box:before {
   content: " ";
@@ -1687,7 +1694,7 @@ a.ribbon:hover {
 }
 /* resume page */
 .w420 h4.about-text {
-  font-size: 1.2em;
+  font-size: 1em;
 }
 .w420 .testo .img_sec {
   height: 50px;
@@ -1714,7 +1721,7 @@ a.ribbon:hover {
 }
 .w420 .history-unit h4.work-time {
   min-width: 67px;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 .w420 .history-unit .work-desc {
   margin-left: 104px;
